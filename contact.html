@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="frondend/libraries/bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="frondend/libraries/xzoom/xzoom.css">
+    <link rel="stylesheet" href="frondend/libraries/gijgo/css/gijgo.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="frondend/styles/main.css" />
+
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div class="container fixed">
+        <nav class="row navbar navbar-expand-lg navbar-light bg-white">
+            <a href="#" class="navbar-brand">
+                <img src="frondend/images/logo.png" alt="Logo Nomads" />
+            </a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navb">
+                <span class="navbar-toggler-icon"> </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navb">
+                <ul class="navbar-nav ml-auto mr-3">
+                    <li class="nav-item mx-md-2">
+                        <a href="index.html#home" class="nav-link active">Home</a>
+                    </li>
+                    <li class="nav-item mx-md-2">
+                        <a href="index.html#location" class="nav-link">Location</a>
+                    </li>
+                    <li class="nav-item mx-md-2">
+                        <a href="index.html#topTier" class="nav-link">Top Tier Foods</a>
+                    </li>
+                    <li class="nav-item mx-md-2 dropdown">
+                        <a href="" class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">
+                            Foods
+                        </a>
+                        <div class="dropdown-menu">
+                            <a href="section/sumatera/index.html" class="dropdown-item">Sumatera</a>
+                            <a href="section/jawa_tengah/index.html" class="dropdown-item">Jawa Tengah</a>
+                            <a href="section/jawa_barat/index.html" class="dropdown-item">Jawa Barat</a>
+                            <a href="section/jawa_timur/index.html" class="dropdown-item">Jawa Timur</a>
+                            <a href="section/bali/index.html" class="dropdown-item">Bali</a>
+                            <a href="section/papua/index.html" class="dropdown-item">Papua</a>
+                            <a href="section/sulawesi/index.html" class="dropdown-item">Sulawesi</a>
+                            <a href="section/kalimantan/index.html" class="dropdown-item">Kalimantan</a>
+                        </div>
+                    </li>
+                    <li class="nav-item mx-md-2">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+
+    </div>
+    <!-- main -->
+    <main>
+        <div class="container">
+
+            <div class="section-contact align-items-center">
+                <div class="col text-center">
+                    <h1>Get in touch!</h1>
+                    <p>
+                        Contact us for quote, help, or anything else!
+                    </p>
+
+                    <!-- <a href="index.html" class="btn btn-home-page mt-3 px-5">Home Page</a> -->
+                </div>
+
+                <div class="row mt-5 mb-5">
+                    <div class="col-sm-4">
+                        <a href="" target="blank">
+                            <div class="card-contact text-center ">
+                                <div class="gap"></div>
+                                <img src="frondend/images/ic_instagram.png" width="30" class="mb-2" alt="">
+                                <p>username200</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-4 mt-3 mt-sm-0 mt-md-0 mt-lg-0">
+                        <a href="https://wa.me/6289605875011" target="blank">
+                            <div class="card-contact text-center ">
+                                <div class="gap"></div>
+                                <img src="frondend/images/ic_whatsapp.png" width="30" class="mb-2" alt="">
+                                <p>6289605875011</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-4 mt-3 mt-sm-0 mt-md-0 mt-lg-0">
+                        <a href="" target="blank">
+                            <div class="card-contact text-center ">
+                                <div class="gap"></div>
+                                <img src="frondend/images/ic_line.png" width="30" class="mb-2" alt="">
+                                <p>username200</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="form-contact-card mx-auto">
+                    <div class="container p-4">
+                        <form action="" method="post">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="name">Name</label>
+                                        <input type="text" class="form-control" id="name">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email">Email</label>
+                                        <input type="email" class="form-control" id="email">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="phone">Phone Number</label>
+                                        <input type="phone" class="form-control" id="phone">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="message">Message</label>
+                                        <textarea class="form-control" id="message" rows="8"></textarea>
+                                    </div>
+                                    <div class="float-right">
+                                        <button type="submit" class="btn">Send Message</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <br>
+    <br>
+    <footer class="section-footer mt-5 mb-4 border-top">
+        <div class="container pt-5 pb-5">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-12 col-lg-3">
+                            <img src="frondend/images/logo.png" alt="" width="150px">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row justify-content-center align-items-center pt-4">
+                <div class="col-auto text-gray-500 font-weight-light">
+                    2022 Copyright FoodReview • All rights reserved • Made in Surabaya
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="frondend/libraries/jquery/jquery-3.6.0.min.js"></script>
+    <script src="frondend/libraries/bootstrap/js/bootstrap.js"></script>
+    <script src="frondend/libraries/retina/retina.min.js"></script>
+    <script src="frondend/libraries/xzoom/xzoom.min.js"></script>
+    <script src="frondend/libraries/gijgo/js/gijgo.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.xzoom, .xzoom-gallery').xzoom({
+                zoomWidth: 500,
+                title: false,
+                tint: '#fff',
+                xoffset: 15,
+            });
+
+            $('.datepicker').datepicker({
+                uiLibrary: 'bootstrap4',
+                icons: {
+                    rightIcon: '<img src="frondend/images/ic_doe.png">'
+                }
+
+            })
+
+        });
+    </script>
+</body>
+
+</html>

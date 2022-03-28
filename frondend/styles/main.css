@@ -299,23 +299,20 @@ header .btn-get-started:hover {
           box-shadow: none;
 }
 
-.section-success {
-  height: 90vh;
-}
-
-.section-success h1 {
-  font-weight: 600;
+.section-contact h1 {
+  margin-top: 40px;
+  font-weight: bolder;
   font-size: 26px;
   color: #373737;
 }
 
-.section-success p {
+.section-contact p {
   font-weight: 300;
   font-size: 18px;
   color: #b1b1b1;
 }
 
-.section-success .btn-home-page {
+.section-contact .btn-home-page {
   border-radius: 4px;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -325,8 +322,33 @@ header .btn-get-started:hover {
   color: #fff;
 }
 
-.section-success .btn-home-page:hover {
+.section-contact .btn-home-page:hover {
   background-color: #1b3b86;
+  color: #fff;
+}
+
+.section-contact .card-contact {
+  height: 113px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 4px 10px rgba(164, 164, 164, 0.22);
+          box-shadow: 0px 4px 10px rgba(164, 164, 164, 0.22);
+  border-radius: 15px;
+}
+
+.section-contact .card-contact .gap {
+  padding-top: 25px;
+}
+
+.section-contact .form-contact-card {
+  width: 800px;
+  font-weight: bold;
+  color: #fff;
+  background: #BCAE99;
+  border-radius: 20px;
+}
+
+.section-contact .form-contact-card button {
+  background-color: #AA9473;
   color: #fff;
 }
 
