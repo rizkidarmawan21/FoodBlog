@@ -389,11 +389,12 @@ header {
 
     .form-contact-card {
         // height: 450px;
-        width: 800px;
+        width: 80%;
         font-weight: bold;
         color: #fff;
         background: #BCAE99;
         border-radius: 20px;
+
 
         button {
             background-color: #AA9473;
@@ -402,6 +403,7 @@ header {
     }
 
 }
+
 
 .login-container {
     @media (min-width: 992px) {
