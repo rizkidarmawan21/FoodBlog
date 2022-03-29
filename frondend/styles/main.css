@@ -339,6 +339,10 @@ header .btn-get-started:hover {
   padding-top: 25px;
 }
 
+.section-contact .sosmed {
+  width: 60%;
+}
+
 .section-contact .form-contact-card {
   width: 80%;
   font-weight: bold;
